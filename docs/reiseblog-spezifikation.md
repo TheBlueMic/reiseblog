@@ -12,7 +12,7 @@ Ein einfacher, statischer Reiseblog, den man ohne Server/Datenbank betreiben kan
 ## Seitenstruktur
 
 ### Startseite (`index.html`)
-- Kurzer Titel/Intro zur Reise (z. B. "USA Roadtrip 2026 – Familie [Name]")
+- Kurzer Titel/Intro zur Reise (z. B. "USA Roadtrip 2026")
 - Chronologische Liste aller Blogeinträge (neuester zuerst), je mit:
   - Titel
   - Datum

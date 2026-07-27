@@ -11,6 +11,16 @@ Empfang. Deshalb gilt: ein neuer Eintrag ist immer nur eine neue Datei in einem
 neuen Ordner. Niemals bestehenden Code ändern müssen, um einen Post zu
 veröffentlichen. Wenn eine Änderung diesen Grundsatz verletzt, ist sie falsch.
 
+## Anonymität
+
+Der Blog bleibt anonym – das ist der Familie wichtig, nicht nur eine Stilfrage.
+
+- Keine Fotos, auf denen wir (die Familie) erkennbar zu sehen sind. Landschaft,
+  Fahrzeug, Essen, Hände, Rückenansichten: ja. Gesichter: nein.
+- Nirgendwo der volle echte Name – weder im Fließtext noch in Konfiguration,
+  Seitentitel oder Code-Kommentaren.
+- Das GitHub-Handle ist bewusst schon anonym gewählt und bleibt es.
+
 ## Einen neuen Beitrag anlegen
 
 Ordner nach dem Muster `posts/JJJJ-MM-TT-kurzer-titel/`, darin `index.md`:
