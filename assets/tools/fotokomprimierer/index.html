@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fotokomprimierer – USA Roadtrip 2026</title>
+<style>
+  :root {
+    --grund: #ffffff;
+    --text: #14231c;
+    --text-leise: #667771;
+    --linie: #dfe5e2;
+    --gruen: #17603f;
+    --auf-gruen: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --grund: #101614;
+      --text: #e8eeea;
+      --text-leise: #93a49d;
+      --linie: #24302b;
+      --gruen: #14512f;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--grund);
+    color: var(--text);
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    padding: 1.25rem;
+    max-width: 42rem;
+    margin: 0 auto;
+  }
+  h1 { font-size: 1.4rem; margin-bottom: 0.75rem; }
+  p.intro { color: var(--text-leise); margin-bottom: 1.5rem; }
+  p.hinweis { color: var(--text-leise); font-size: 0.85rem; margin-top: 0.5rem; }
+
+  .auswahl-knopf {
+    display: inline-block;
+    background: var(--gruen);
+    color: var(--auf-gruen);
+    padding: 0.9rem 1.4rem;
+    border-radius: 0.5rem;
+    font-size: 1.05rem;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+  }
+  input[type="file"] { display: none; }
+
+  .regler-zeile {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1.25rem 0;
+  }
+  .regler-zeile label { white-space: nowrap; font-size: 0.95rem; }
+  .regler-zeile input[type="range"] { flex: 1; }
+
+  #fortschritt-zeile { margin: 1rem 0; color: var(--text-leise); min-height: 1.3rem; }
+
+  #ergebnisse {
+    display: grid;
+    gap: 0.75rem;
+    margin: 1.25rem 0;
+  }
+  .karte {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr;
+    gap: 0.75rem;
+    border: 1px solid var(--linie);
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    align-items: center;
+  }
+  .karte img { width: 4.5rem; height: 4.5rem; object-fit: cover; border-radius: 0.35rem; }
+  .karte .name { font-weight: 600; word-break: break-all; }
+  .karte .groesse { color: var(--text-leise); font-size: 0.9rem; }
+  .karte .fehler { color: #a3312a; font-size: 0.9rem; }
+  .karte a.download {
+    display: inline-block;
+    margin-top: 0.3rem;
+    color: var(--gruen);
+    font-size: 0.9rem;
+    text-decoration: underline;
+  }
+
+  .aktionen {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1.25rem 0;
+  }
+  button.gross {
+    background: var(--gruen);
+    color: var(--auf-gruen);
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  button.gross:disabled { opacity: 0.4; cursor: default; }
+  button.leise {
+    background: transparent;
+    color: var(--text-leise);
+    border: 1px solid var(--linie);
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  #gesamt-zeile { color: var(--text-leise); margin-top: 0.5rem; }
+  #nicht-unterstuetzt {
+    display: none;
+    background: #a3312a;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+</style>
+</head>
+<body>
+
+<h1>Fotokomprimierer</h1>
+<p class="intro">
+  Fotos direkt auf dem Handy verkleinern und komprimieren, bevor sie in den
+  Reiseblog hochgeladen werden. Alles passiert nur im Browser – die Fotos
+  verlassen dabei nie das Gerät.
+</p>
+
+<div id="nicht-unterstuetzt">
+  Dieser Browser wird nicht unterstützt – bitte Chrome verwenden.
+</div>
+
+<label class="auswahl-knopf" for="datei-eingabe">Fotos auswählen</label>
+<input type="file" id="datei-eingabe" accept="image/*" multiple>
+<p class="hinweis">
+  Öffnet die übliche Auswahl des Handys (Galerie, Dateien, Kamera) – welche
+  Optionen dabei angezeigt werden, entscheidet das Betriebssystem, nicht diese
+  Seite.
+</p>
+
+<div class="regler-zeile">
+  <label for="qualitaet-regler">Qualität: <span id="qualitaet-wert">82</span></label>
+  <input type="range" id="qualitaet-regler" min="50" max="95" value="82">
+</div>
+
+<div id="fortschritt-zeile"></div>
+
+<div id="ergebnisse"></div>
+
+<div class="aktionen">
+  <button class="gross" id="zip-knopf" disabled>Alle als ZIP herunterladen</button>
+  <button class="leise" id="reset-knopf">Zurücksetzen</button>
+</div>
+
+<div id="gesamt-zeile"></div>
+
+<script src="jszip.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
