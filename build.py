@@ -292,7 +292,8 @@ def bild_verarbeiten(quelle: Path, zielordner: Path, breiten: list[int], qualita
         if not ziel.exists() or ziel.stat().st_mtime < quelle.stat().st_mtime:
             shutil.copy2(quelle, ziel)
         statistik["bytes_nachher"] += original_groesse
-        return {"src": quelle.name, "srcset": "", "breite": 0, "hoehe": 0}
+        return {"src": quelle.name, "srcset": "", "breite": 0, "hoehe": 0,
+                "dateien": [quelle.name]}
 
     try:
         with Image.open(quelle) as bild:
@@ -334,13 +335,15 @@ def bild_verarbeiten(quelle: Path, zielordner: Path, breiten: list[int], qualita
                 "srcset": srcset if len(erzeugt) > 1 else "",
                 "breite": groesste_breite,
                 "hoehe": round(quell_hoehe * groesste_breite / quell_breite),
+                "dateien": [name for _, name, _ in erzeugt],
             }
     except Exception as exc:                              # defektes oder exotisches Bild
         warn(f"{quelle.name}: konnte nicht verarbeitet werden ({exc}) – Original wird kopiert.")
         ziel = zielordner / quelle.name
         shutil.copy2(quelle, ziel)
         statistik["bytes_nachher"] += original_groesse
-        return {"src": quelle.name, "srcset": "", "breite": 0, "hoehe": 0}
+        return {"src": quelle.name, "srcset": "", "breite": 0, "hoehe": 0,
+                "dateien": [quelle.name]}
 
 
 def mit_prefix(variante: dict, prefix: str) -> dict:
@@ -535,6 +538,16 @@ def bauen() -> dict:
         for bild in beitrag["bilder"]:
             varianten[bild.name] = bild_verarbeiten(
                 bild, ziel_ordner, cfg["image_widths"], cfg["image_quality"])
+
+        # Fotos aufräumen, die es in der Quelle nicht mehr gibt – sonst bleiben
+        # umbenannte oder gelöschte Bilder lokal für immer in dist/ liegen.
+        if ziel_ordner.exists():
+            gewollt = {"index.html"}
+            for variante in varianten.values():
+                gewollt.update(variante.get("dateien", []))
+            for datei in ziel_ordner.iterdir():
+                if datei.is_file() and datei.name not in gewollt:
+                    datei.unlink()
 
         im_text: set[str] = set()
 
