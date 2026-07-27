@@ -1,6 +1,7 @@
 ---
 titel: Die Webseite ist online
 teaser: Heute ist der Blog scharfgeschaltet – Wochen vor der ersten Nacht in Las Vegas.
+cover: wohnmobil-grand-canyon.jpg
 ---
 
 Heute ist die Seite live gegangen, gut zwei Wochen vor dem eigentlichen Start.
@@ -12,5 +13,6 @@ Ordner mit `index.md` und ein paar Fotos eine fertige Seite macht, war in
 kurzer Zeit fertig – inklusive Vorlagen, Stylesheet und der Regel, dass ein
 neuer Post nie den bestehenden Code anfassen muss.
 
-Das Bild oben ist kein echtes Foto vom Canyon, sondern nur ein Platzhalter für
-den Test. Die ersten echten Fotos vom Wohnmobil gibt es ab dem 9. August.
+Die Bilder hier sind keine echten Fotos vom Canyon, sondern nur Platzhalter für
+den Test – eins vom Wohnmobil, eins vom Rechner, an dem der Blog entstanden
+ist. Die ersten echten Fotos gibt es ab dem 9. August.
