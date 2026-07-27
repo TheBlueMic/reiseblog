@@ -725,8 +725,9 @@ def bericht(ergebnis: dict) -> None:
         vorher = statistik["bytes_vorher"] / 1_048_576
         nachher = statistik["bytes_nachher"] / 1_048_576
         gespart = vorher - nachher
+        vorzeichen = "–" if gespart >= 0 else "+"
         print(f"  Fotos: {vorher:.1f} MB → {nachher:.1f} MB "
-              f"(–{gespart:.1f} MB, EXIF inkl. GPS entfernt)")
+              f"({vorzeichen}{abs(gespart):.1f} MB, EXIF inkl. GPS entfernt)")
         if statistik["uebersprungen"]:
             print(f"  {statistik['uebersprungen']} bereits verarbeitete Fassungen übersprungen")
 
