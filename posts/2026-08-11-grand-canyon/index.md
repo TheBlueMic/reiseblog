@@ -1,6 +1,7 @@
 ---
 titel: South Rim, kurz nach sechs
 ort: Grand Canyon
+km: 450
 teaser: Erster Blick über den Südrand – und deutlich kälter als gedacht.
 ---
 

@@ -19,6 +19,7 @@ Ordner nach dem Muster `posts/JJJJ-MM-TT-kurzer-titel/`, darin `index.md`:
 ---
 titel: South Rim, kurz nach sechs
 ort: Grand Canyon
+km: 450
 teaser: Erster Blick über den Südrand – und deutlich kälter als gedacht.
 ---
 
@@ -29,6 +30,8 @@ Regeln dazu:
 
 - Nur `titel` ist wirklich nötig. Fehlt er, wird er aus dem Ordnernamen abgeleitet.
 - Das **Datum kommt aus dem Ordnernamen**. Eine `datum:`-Zeile überschreibt das.
+- `km:` ist der Kilometerstand der Reise und erscheint als grünes Kästchen vor
+  dem Datum. Fehlt die Zeile, entfällt das Kästchen ersatzlos.
 - Fehlt `teaser`, nimmt der Build die ersten beiden Sätze des Textes.
 - `cover: dateiname.jpg` wählt das Vorschaubild, sonst das alphabetisch erste Foto.
 - `entwurf: true` hält den Beitrag aus dem Build heraus.

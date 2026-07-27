@@ -29,6 +29,7 @@ Und so sieht `index.md` aus:
 ---
 titel: Zwischen den Riesen
 ort: Sequoia National Park
+km: 1290
 teaser: Man kann Kindern hundertmal erzählen, wie groß ein Mammutbaum ist.
 ---
 
@@ -46,6 +47,7 @@ Der Weg runter ist kurz, der Weg hoch nicht.
 | `datum:` | kommt aus dem Ordnernamen (`2026-08-14-…`) |
 | `teaser:` | die ersten beiden Sätze des Textes |
 | `ort:` | steht dann einfach nicht dabei |
+| `km:` | das grüne Kilometer-Kästchen entfällt |
 | `cover:` | das alphabetisch erste Foto im Ordner |
 | `entwurf: true` | der Eintrag erscheint nicht auf der Seite |
 

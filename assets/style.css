@@ -1,27 +1,43 @@
 /* ==========================================================================
    USA Roadtrip 2026 – Stylesheet
+   Gestaltung "Interstate": weiß wie ein Verkehrsschild, das Grün der
+   amerikanischen Autobahnwegweiser als einzige Farbe.
 
-   Alle Farben, Schriften und Abstände stehen als Variablen im :root-Block
-   ganz oben. Wer etwas umfärben oder vergrößern will, ändert dort einen Wert
-   und nichts anderes.
+   Alle Farben, Schriften und Maße stehen als Variablen im :root-Block ganz
+   oben. Wer etwas umfärben oder vergrößern will, ändert dort einen Wert und
+   sonst nichts.
    ========================================================================== */
 
 :root {
   /* Farben */
-  --grund:      #ffffff;
-  --text:       #111111;
-  --text-leise: #767676;
-  --linie:      #e8e8e8;
-  --akzent:     #111111;
+  --grund:       #ffffff;
+  --text:        #14231c;
+  --text-leise:  #667771;
+  --linie:       #dfe5e2;
+  --gruen:       #17603f;   /* Wegweisergrün, trägt die ganze Seite */
+  --gruen-text:  #17603f;   /* Grün auf Weiß – für Links und Rahmen */
+  --auf-gruen:   #ffffff;
 
   /* Schrift */
   --schrift-text:  "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
-  --schrift-daten: Consolas, "SF Mono", "Roboto Mono", ui-monospace, monospace;
+  --schrift-schild: Bahnschrift, "DIN Alternate", "Roboto Condensed",
+                    "Franklin Gothic Medium", "Segoe UI", system-ui, sans-serif;
 
   /* Maße */
-  --spalte:     42rem;   /* Lesebreite des Fließtexts */
-  --rand:       1.25rem;
-  --luft:       2.75rem;
+  --spalte: 42rem;    /* Lesebreite des Fließtexts */
+  --rand:   1.25rem;
+  --luft:   2.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --grund:      #101614;
+    --text:       #e8eeea;
+    --text-leise: #93a49d;
+    --linie:      #24302b;
+    --gruen:      #14512f;
+    --gruen-text: #4fae7c;   /* auf dunklem Grund muss das Grün heller sein */
+  }
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -33,190 +49,254 @@ body {
   color: var(--text);
   font-family: var(--schrift-text);
   font-size: 1.0625rem;
-  line-height: 1.65;
+  line-height: 1.62;
   -webkit-font-smoothing: antialiased;
   overflow-wrap: break-word;
 }
 
 img { max-width: 100%; height: auto; display: block; }
 
-a { color: var(--akzent); }
+a { color: var(--gruen-text); }
 a:hover { text-decoration-thickness: 2px; }
 
-:focus-visible { outline: 2px solid var(--akzent); outline-offset: 3px; }
+:focus-visible { outline: 3px solid var(--gruen-text); outline-offset: 2px; }
 
 .skip-link {
   position: absolute;
   left: -9999px;
-  background: var(--text);
-  color: var(--grund);
+  background: var(--gruen);
+  color: var(--auf-gruen);
   padding: .6rem 1rem;
   z-index: 10;
 }
 .skip-link:focus { left: var(--rand); top: var(--rand); }
 
-/* ---------------------------------------------------------------- Kopf */
+/* ------------------------------------------------------- Kopf der Startseite
+   Ein durchgehender grüner Balken wie ein Wegweiser über der Fahrbahn. */
 
 .site-head {
-  max-width: var(--spalte);
-  margin: 0 auto;
-  padding: clamp(2.5rem, 9vw, 4.5rem) var(--rand) var(--luft);
+  background: var(--gruen);
+  color: var(--auf-gruen);
+  padding: clamp(1.75rem, 6vw, 3rem) var(--rand);
   display: flex;
   flex-direction: column;
-  gap: .8rem;
+  align-items: center;
+  gap: .55rem;
 }
+.site-head > * { width: 100%; max-width: var(--spalte); }
+
 .kicker {
-  font-family: var(--schrift-daten);
-  font-size: .7rem;
-  letter-spacing: .2em;
+  font-family: var(--schrift-schild);
+  font-size: .78rem;
+  letter-spacing: .18em;
   text-transform: uppercase;
-  color: var(--text-leise);
+  color: rgba(255, 255, 255, .78);
 }
 .site-title {
-  font-size: clamp(2rem, 8vw, 3rem);
-  font-weight: 300;
-  letter-spacing: -.02em;
-  line-height: 1.08;
+  font-family: var(--schrift-schild);
+  font-size: clamp(1.9rem, 8vw, 2.9rem);
+  font-weight: 600;
+  letter-spacing: .015em;
+  text-transform: uppercase;
+  line-height: 1.06;
   text-wrap: balance;
 }
 .site-intro {
-  color: var(--text-leise);
   font-size: 1rem;
+  color: rgba(255, 255, 255, .86);
   max-width: 34rem;
 }
 
-/* ---------------------------------------------------------------- Liste */
+/* ------------------------------------------------------------------- Liste */
 
 .feed {
   max-width: var(--spalte);
   margin: 0 auto;
-  padding: 0 var(--rand) var(--luft);
+  padding: 0 var(--rand);
   display: flex;
   flex-direction: column;
-  gap: var(--luft);
 }
+.feed-item { border-bottom: 1px solid var(--linie); }
+.feed-item:last-child { border-bottom: 0; }
+
 .feed-link {
   display: flex;
   flex-direction: column;
-  gap: .7rem;
+  gap: .65rem;
+  padding: var(--luft) 0;
   color: inherit;
   text-decoration: none;
 }
-.feed-link:hover .feed-title { text-decoration: underline; text-underline-offset: 3px; }
-.feed-thumb img { width: 100%; }
-.feed-text { display: flex; flex-direction: column; gap: .4rem; }
-.feed-meta {
-  font-family: var(--schrift-daten);
-  font-size: .7rem;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  color: var(--text-leise);
-}
+.feed-link:hover .feed-title { text-decoration: underline; text-underline-offset: 4px; }
+.feed-thumb img { width: 100%; border-radius: 3px; }
+.feed-text { display: flex; flex-direction: column; gap: .35rem; }
+
 .feed-title {
-  font-size: 1.35rem;
-  font-weight: 500;
-  letter-spacing: -.01em;
-  line-height: 1.25;
+  font-family: var(--schrift-schild);
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: .01em;
+  line-height: 1.18;
   text-wrap: balance;
 }
 .feed-teaser { color: var(--text-leise); }
-.leer { color: var(--text-leise); }
+.leer { color: var(--text-leise); padding: var(--luft) 0; }
 
-/* ---------------------------------------------------------------- Beitrag */
+/* --------------------------------------------------- Datumszeile mit km-Feld
+   Das grüne Kästchen erscheint nur, wenn im Kopf der Datei km: steht. */
 
-.top-nav, .post-nav {
-  max-width: var(--spalte);
-  margin: 0 auto;
-  padding: 1.25rem var(--rand);
-  font-family: var(--schrift-daten);
-  font-size: .72rem;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-}
-.top-nav a, .post-nav a { color: var(--text-leise); text-decoration: none; }
-.top-nav a:hover, .post-nav a:hover { color: var(--text); text-decoration: underline; }
-.post-nav { border-top: 1px solid var(--linie); margin-top: var(--luft); }
-
-.post { max-width: var(--spalte); margin: 0 auto; padding: 0 var(--rand); }
-.post-head { display: flex; flex-direction: column; gap: .6rem; padding-bottom: 1.5rem; }
-.post-meta {
-  font-family: var(--schrift-daten);
-  font-size: .72rem;
-  letter-spacing: .14em;
+.feed-meta, .post-meta {
+  font-family: var(--schrift-schild);
+  font-variant-numeric: tabular-nums;
+  font-size: .8rem;
+  letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--text-leise);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem .7rem;
 }
+.km {
+  background: var(--gruen);
+  color: var(--auf-gruen);
+  font-weight: 600;
+  padding: .12em .45em;
+  border-radius: 2px;
+  letter-spacing: .06em;
+}
+
+/* ----------------------------------------------------------------- Beitrag */
+
+.top-nav {
+  background: var(--gruen);
+  padding: .7rem var(--rand);
+  font-family: var(--schrift-schild);
+  font-size: .8rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.top-nav a {
+  display: block;
+  max-width: var(--spalte);
+  margin: 0 auto;
+  color: var(--auf-gruen);
+  text-decoration: none;
+}
+.top-nav a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.post { max-width: var(--spalte); margin: 0 auto; padding: var(--luft) var(--rand) 0; }
+.post:has(.post-hero) { padding-top: 1.25rem; }
+.post-hero { margin-bottom: 1.4rem; }
+.post-hero img { width: 100%; border-radius: 3px; }
+.post-head { display: flex; flex-direction: column; gap: .7rem; padding-bottom: 1.5rem; }
 .post-title {
-  font-size: clamp(1.7rem, 6.5vw, 2.4rem);
-  font-weight: 400;
-  letter-spacing: -.02em;
-  line-height: 1.14;
+  font-family: var(--schrift-schild);
+  font-size: clamp(1.75rem, 6.5vw, 2.5rem);
+  font-weight: 600;
+  letter-spacing: .01em;
+  line-height: 1.1;
   text-wrap: balance;
 }
 
-.post-body { display: flex; flex-direction: column; gap: 1.1rem; }
-.post-body h2 { font-size: 1.4rem; font-weight: 500; margin-top: 1rem; line-height: 1.25; }
-.post-body h3 { font-size: 1.15rem; font-weight: 600; margin-top: .75rem; }
-.post-body ul, .post-body ol { padding-left: 1.4rem; display: flex; flex-direction: column; gap: .35rem; }
+.post-body { display: flex; flex-direction: column; gap: 1.05rem; }
+.post-body h2 {
+  font-family: var(--schrift-schild);
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: .01em;
+  margin-top: 1rem;
+  line-height: 1.2;
+}
+.post-body h3 { font-size: 1.15rem; font-weight: 600; margin-top: .7rem; }
+.post-body ul, .post-body ol {
+  padding-left: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+}
+.post-body li::marker { color: var(--gruen-text); }
 .post-body blockquote {
-  border-left: 2px solid var(--linie);
-  padding-left: 1rem;
+  border-left: 4px solid var(--gruen);
+  padding: .1rem 0 .1rem 1rem;
   color: var(--text-leise);
 }
 .post-body code {
-  font-family: var(--schrift-daten);
+  font-family: Consolas, ui-monospace, monospace;
   font-size: .9em;
-  background: rgba(0,0,0,.05);
-  padding: .1em .3em;
-  border-radius: 3px;
+  background: rgba(23, 96, 63, .09);
+  padding: .1em .32em;
+  border-radius: 2px;
 }
 .post-body hr { border: 0; border-top: 1px solid var(--linie); }
-.post-body .bild { display: flex; flex-direction: column; gap: .45rem; }
+.post-body .bild { display: flex; flex-direction: column; gap: .4rem; }
+.post-body .bild img { border-radius: 3px; }
 .post-body figcaption {
-  font-size: .85rem;
+  font-size: .88rem;
   color: var(--text-leise);
+  border-left: 3px solid var(--linie);
+  padding-left: .6rem;
 }
 .fehlendes-bild {
-  font-family: var(--schrift-daten);
-  font-size: .8rem;
+  font-family: var(--schrift-schild);
+  font-size: .85rem;
+  letter-spacing: .06em;
   color: #b3261e;
 }
 
-/* ---------------------------------------------------------------- Galerie */
+/* ----------------------------------------------------------------- Galerie */
 
 .galerie {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr));
-  gap: .6rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr));
+  gap: .5rem;
   margin-top: var(--luft);
 }
 .galerie-bild { margin: 0; }
-.galerie-bild img { width: 100%; }
+.galerie-bild img { width: 100%; border-radius: 3px; }
 
-/* ---------------------------------------------------------------- Fuß */
+/* --------------------------------------------------------------------- Fuß */
+
+.post-nav {
+  max-width: var(--spalte);
+  margin: var(--luft) auto 0;
+  padding: 1.1rem var(--rand);
+  border-top: 3px solid var(--gruen);
+  font-family: var(--schrift-schild);
+  font-size: .8rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.post-nav a { color: var(--gruen-text); text-decoration: none; }
+.post-nav a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 .site-foot {
   max-width: var(--spalte);
   margin: var(--luft) auto 0;
-  padding: 1.5rem var(--rand) 3rem;
+  padding: 1.3rem var(--rand) 3rem;
   border-top: 1px solid var(--linie);
   display: flex;
   flex-wrap: wrap;
   gap: .5rem 1.5rem;
   justify-content: space-between;
-  font-family: var(--schrift-daten);
-  font-size: .72rem;
-  letter-spacing: .12em;
+  font-family: var(--schrift-schild);
+  font-size: .8rem;
+  letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--text-leise);
 }
-.foot-nav { display: flex; flex-wrap: wrap; gap: .5rem; }
+.foot-nav { display: flex; flex-wrap: wrap; gap: .5rem .9rem; }
 .foot-nav a { color: var(--text-leise); text-decoration: none; }
-.foot-nav a:hover { color: var(--text); text-decoration: underline; }
+.foot-nav a:hover { color: var(--gruen-text); text-decoration: underline; }
 
-/* ---------------------------------------------------------------- Druck */
+/* Auf der Beitragsseite folgt der Fuß direkt auf die grüne Trennlinie. */
+.post-nav + .site-foot { margin-top: 0; border-top: 0; padding-top: 0; }
+
+/* ------------------------------------------------------------------- Druck */
 
 @media print {
   .skip-link, .top-nav, .post-nav, .site-foot { display: none; }
+  .site-head { background: none; color: #000; padding-left: 0; }
+  .kicker, .site-intro { color: #444; }
   body { font-size: 11pt; }
 }

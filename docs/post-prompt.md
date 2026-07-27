@@ -11,8 +11,9 @@ Du hilfst mir, einen Eintrag für unseren Reiseblog zu schreiben. Wir sind eine
 Familie aus Deutschland und machen im August 2026 einen Roadtrip von Las Vegas
 nach San Francisco.
 
-Frag mich zuerst nach: Datum, Ort und was an dem Tag passiert ist. Stell ruhig
-ein, zwei Rückfragen, wenn meine Stichpunkte zu dünn sind.
+Frag mich zuerst nach: Datum, Ort, ungefährem Kilometerstand der Reise und was
+an dem Tag passiert ist. Stell ruhig ein, zwei Rückfragen, wenn meine
+Stichpunkte zu dünn sind.
 
 Schreib danach den Eintrag in diesem Ton:
 
@@ -34,6 +35,7 @@ ihn in einem Stück kopieren kann:
 ---
 titel: <Titel des Eintrags>
 ort: <Ort>
+km: <Kilometerstand der Reise, nur die Zahl – weglassen, wenn unbekannt>
 teaser: <ein Satz, der Lust aufs Weiterlesen macht, maximal 200 Zeichen>
 ---
 

@@ -451,6 +451,7 @@ def beitraege_einlesen() -> list[dict]:
             "titel": titel,
             "datum": wann,
             "ort": feld(kopf, "ort", "location"),
+            "km": feld(kopf, "km", "kilometer"),
             "teaser": feld(kopf, "teaser", "beschreibung", "description"),
             "cover": feld(kopf, "cover", "titelbild"),
             "koerper": koerper,
@@ -566,7 +567,23 @@ def bauen() -> dict:
 
         koerper_html = markdown(beitrag["koerper"], bild_im_text)
 
-        galerie_bilder = [b for b in beitrag["bilder"] if b.name not in im_text]
+        # Vorschaubild: cover aus dem Kopf, sonst das erste Foto im Ordner.
+        # Es eröffnet den Beitrag und erscheint deshalb nicht noch einmal in
+        # der Galerie – außer es steht ohnehin schon mitten im Text.
+        cover_name = beitrag["cover"] or (beitrag["bilder"][0].name if beitrag["bilder"] else "")
+        if beitrag["cover"] and beitrag["cover"] not in varianten:
+            warn(f"posts/{slug}: cover {beitrag['cover']!r} liegt nicht im Ordner.")
+            cover_name = beitrag["bilder"][0].name if beitrag["bilder"] else ""
+
+        hero_html = ""
+        if cover_name and cover_name not in im_text:
+            hero_html = ('<div class="post-hero">'
+                         + img_tag(varianten[cover_name], beitrag["titel"],
+                                   "(max-width: 46rem) 100vw, 46rem")
+                         + "</div>")
+
+        bereits_gezeigt = im_text | ({cover_name} if hero_html else set())
+        galerie_bilder = [b for b in beitrag["bilder"] if b.name not in bereits_gezeigt]
         if galerie_bilder:
             kacheln = []
             for nummer, bild in enumerate(galerie_bilder, start=1):
@@ -582,24 +599,23 @@ def bauen() -> dict:
         if not teaser:
             warn(f"posts/{slug}: kein Teaser und kein Text – die Beschreibung bleibt leer.")
 
-        meta_teile = [datum_deutsch(beitrag["datum"])]
+        # Datumszeile: das grüne km-Kästchen nur, wenn km: im Kopf steht.
+        meta_teile = []
+        if beitrag["km"]:
+            meta_teile.append(f'<span class="km">km {html.escape(beitrag["km"])}</span>')
+        meta_teile.append(f'<span>{html.escape(datum_deutsch(beitrag["datum"]))}</span>')
         if beitrag["ort"]:
-            meta_teile.append(beitrag["ort"])
-        meta = " · ".join(meta_teile)
+            meta_teile.append(f'<span>{html.escape(beitrag["ort"])}</span>')
+        meta = "".join(meta_teile)
 
         inhalt = fuellen(post_vorlage, {
             "root": root,
-            "meta": html.escape(meta),
+            "hero": hero_html,
+            "meta": meta,
             "title": html.escape(beitrag["titel"]),
             "body": koerper_html,
             "gallery": galerie_html,
         })
-
-        # Vorschaubild: cover aus dem Kopf, sonst das erste Foto im Ordner
-        cover_name = beitrag["cover"] or (beitrag["bilder"][0].name if beitrag["bilder"] else "")
-        if beitrag["cover"] and beitrag["cover"] not in varianten:
-            warn(f"posts/{slug}: cover {beitrag['cover']!r} liegt nicht im Ordner.")
-            cover_name = beitrag["bilder"][0].name if beitrag["bilder"] else ""
 
         canonical = f"{basis}posts/{slug}/" if basis else ""
         og_bild = f"{basis}posts/{slug}/{varianten[cover_name]['src']}" if (basis and cover_name) else ""
@@ -621,7 +637,7 @@ def bauen() -> dict:
         eintraege_html.append(fuellen(item_vorlage, {
             "url": f"posts/{slug}/index.html",
             "thumb": thumb,
-            "meta": html.escape(meta),
+            "meta": meta,
             "title": html.escape(beitrag["titel"]),
             "teaser": html.escape(teaser),
         }))
