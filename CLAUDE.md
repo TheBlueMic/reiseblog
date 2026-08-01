@@ -1,7 +1,7 @@
 # Hinweise für Claude
 
 Statischer Reiseblog für einen Familien-Roadtrip durch den Südwesten der USA,
-9.–28. August 2026, Las Vegas → San Francisco. Gebaut mit einem eigenen
+9.–29. August 2026, Las Vegas → San Francisco. Gebaut mit einem eigenen
 Python-Skript, veröffentlicht auf GitHub Pages.
 
 ## Was hier wichtig ist

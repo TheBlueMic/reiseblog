@@ -8,18 +8,47 @@ Nevada über die Sierra Nevada bis an die kalifornische Küste.
 
 ## Die Route
 
-1. **Las Vegas** – Ankunft, Akklimatisieren, Auto abholen
-2. **Grand Canyon** – South Rim
-3. **Barstow** – Zwischenstopp an der alten Route 66
-4. **Sequoia National Park** – die Mammutbäume
-5. **Yosemite National Park** – Valley und Glacier Point
-6. **Pismo Beach** – erster Tag am Pazifik
-7. **Hearst Castle** – die Villa über der Küste
-8. **Big Sur** – Highway 1
-9. **Santa Cruz** – Boardwalk
-10. **San Francisco** – Abflug
+1. **Las Vegas** (3 Nächte, 9.–12. Aug) – Ankunft, Akklimatisieren, Auto abholen
+2. **Grand Canyon** (2 Nächte, 12.–14. Aug) – South Rim
+3. **Barstow** (1 Nacht, 14.–15. Aug) – Zwischenstopp an der alten Route 66, Ausflug zur Geisterstadt Calico
+4. **Sequoia National Park** (2 Nächte, 15.–17. Aug) – die Mammutbäume
+5. **Yosemite National Park** (3 Nächte, 17.–20. Aug) – Valley und Glacier Point
+6. **Pismo Beach** (2 Nächte, 20.–22. Aug) – erster Tag am Pazifik
+7. **Hearst Castle** (1 Nacht, 22.–23. Aug) – die Villa über der Küste
+8. **Big Sur** (2 Nächte, 23.–25. Aug) – Highway 1
+9. **Santa Cruz** (1 Nacht, 25.–26. Aug) – Boardwalk
+10. **San Francisco** (3 Nächte, 26.–29. Aug) – Abflug
 
 Insgesamt rund 3 140 Kilometer.
+
+## Camping & Unterkünfte
+
+Ein Mix aus Nationalpark-Campingplätzen, einem RV-Park und zwei Hotels an
+Anfang und Ende der Reise.
+
+- **Las Vegas** – Hotel am Strip
+- **Grand Canyon** – Campingplatz im Nationalpark
+- **Barstow** – KOA-Campingplatz
+- **Sequoia** – Campingplatz im Nationalpark
+- **Yosemite** – Campingplatz im Nationalpark
+- **Pismo Beach** – Campingplatz am State Beach
+- **Hearst** – Campingplatz im State Park
+- **Big Sur** – Campingplätze in den State Parks (Pfeiffer Big Sur / Julia Pfeiffer Burns)
+- **Santa Cruz** – RV-Park am Hafen
+- **San Francisco** – Hotel bei Fisherman's Wharf
+
+## Das Wohnmobil
+
+Ein Cruise America, Übernahme in Henderson (NV) direkt nach der Ankunft in
+Las Vegas, Rückgabe 14 Tage später in Newark (CA) kurz vor Santa Cruz.
+
+- Unbegrenzte Meilen inklusive, keine Zusatzkosten fürs Fahren.
+- Küchenausstattung (Töpfe, Pfannen, Geschirr, Reinigungsset) sowie
+  Bettwäsche und Handtücher für alle Mitreisenden sind Teil des Pakets.
+- Haftpflicht- und Vollkaskoversicherung mit Selbstbehalt inklusive, auch für
+  alle Zusatzfahrer.
+- Vor Ort fallen eine kleine Umwelt- und eine Vorbereitungsgebühr sowie eine
+  Kreditkarten-Kaution an. Der Online-Check-in ist vorab Pflicht.
 
 ## Fahrzeiten je Etappe
 

@@ -1,7 +1,7 @@
 # USA Roadtrip 2026
 
 Statischer Reiseblog für unseren Familien-Roadtrip von Las Vegas nach San
-Francisco, 9.–28. August 2026. Live unter
+Francisco, 9.–29. August 2026. Live unter
 **https://thebluemic.github.io/reiseblog/**
 
 Kein CMS, keine Datenbank, kein Login. Ein neuer Eintrag ist eine neue Datei in
