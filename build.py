@@ -146,7 +146,9 @@ def inline(text: str, bild_html) -> str:
     text = IMG_RE.sub(bild, text)
 
     def link(treffer):
-        ziel = html.escape(treffer.group(2), quote=True)
+        # Die Zeile wurde oben schon mit html.escape() behandelt (& und < > sind
+        # also schon Entities) – hier nur noch Anführungszeichen für das Attribut.
+        ziel = treffer.group(2).replace('"', "&quot;")
         extern = ' target="_blank" rel="noopener"' if ziel.startswith("http") else ""
         return f'<a href="{ziel}"{extern}>{treffer.group(1)}</a>'
 
