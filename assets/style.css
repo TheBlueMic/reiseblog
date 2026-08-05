@@ -107,6 +107,28 @@ a:hover { text-decoration-thickness: 2px; }
   max-width: 34rem;
 }
 
+/* --------------------------------------------------- Zeichnung im Kopf
+   Die Kinderzeichnung sitzt bewusst zwischen dem grünen Kopfbalken und der
+   Liste – gleiche Lesebreite und Bildecken wie die Beitragsfotos. */
+
+.kinderbild {
+  max-width: var(--spalte);
+  margin: var(--luft) auto 0;
+  padding: 0 var(--rand);
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.kinderbild img { width: 100%; border-radius: 3px; }
+.kinderbild figcaption {
+  font-family: var(--schrift-schild);
+  font-size: .78rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--text-leise);
+  text-align: right;
+}
+
 /* ------------------------------------------------------------------- Liste */
 
 .feed {
