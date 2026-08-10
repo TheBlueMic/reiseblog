@@ -276,6 +276,38 @@ a:hover { text-decoration-thickness: 2px; }
 }
 .galerie-bild { margin: 0; }
 .galerie-bild img { width: 100%; border-radius: 3px; }
+.galerie-link { display: block; }
+.galerie-link img { cursor: zoom-in; }
+
+/* -------------------------------------------------------------- Lightbox */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--rand);
+  background: rgba(0, 0, 0, .88);
+}
+.lightbox[hidden] { display: none; }
+.lightbox img { max-width: 100%; max-height: 100%; border-radius: 3px; }
+.lightbox-schliessen {
+  position: fixed;
+  top: var(--rand);
+  right: var(--rand);
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .15);
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.lightbox-schliessen:hover { background: rgba(255, 255, 255, .3); }
 
 /* --------------------------------------------------------------------- Fuß */
 
