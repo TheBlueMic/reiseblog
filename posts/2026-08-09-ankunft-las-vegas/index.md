@@ -12,13 +12,13 @@ Abflug waren wir am Frankfurter Flughafen.
 Der Online-Check-in vom Vorabend hatte nicht funktioniert, also mussten wir
 am Schalter von Condor alles nochmal machen – das hat uns vor allem Zeit
 gekostet. Danach noch an der Passkontrolle bei der Polizei angestanden. Haben wir so auch noch nicht erlebt. Leider geht die automatisierte Kontrolle am Automaten erst ab 12 Jahren.
-Am Ende waren es nur noch vierzig Minuten bis zum Boarding am Gate. Langweile kam also nicht auf.
+Am Ende waren es nur noch vierzig Minuten bis zum Boarding am Gate. Langeweile kam also nicht auf.
 
 Der Flug war gut, das Essen auch. Nur mit den Bluetooth-Kopfhörern gab es
 Probleme – beim nächsten Mal nehmen wir für alle vier Kabelkopfhörer mit.
 
 Bei der Einreise hatten wir noch zwei Bananen und Äpfel im Gepäck – upps!
-Gefühlt wie Kriminelle sind wir in einen Raum begleitet worden, in dem wir erst mal warten mussten. Zum Glück kam dann ein netter, Bewaffneter, der mit uns zum Sondersscan gegangen ist. Am Ende landeten die zwei Äpfel und Bananen im Müll und wir durften Weiterziehen.
+Gefühlt wie Kriminelle sind wir in einen Raum begleitet worden, in dem wir erst mal warten mussten. Zum Glück kam dann ein netter, Bewaffneter, der mit uns zum Sonderscan gegangen ist. Am Ende landeten die zwei Äpfel und Bananen im Müll und wir durften weiterziehen.
 Der Grund dafür ist ernster, als man denkt: frisches Obst kann
 Schädlinge oder Pflanzenkrankheiten einschleppen, gegen die die
 US-Landwirtschaft nicht geschützt ist. In den 1980er-Jahren hat ein einziges
@@ -27,7 +27,7 @@ ausgelöst, deren Bekämpfung am Ende rund 100 Millionen Dollar gekostet hat.
 
 Raus aus dem klimatisierten Flughafen, rein in die Hitze von Las Vegas – das
 war der erste richtige Temperaturschock. Trocken und so heftig, als würde
-man eine Backofentür aufmachen. Mit unserer ersten Uber-Fahrt mit Macbeth ging es dann zum Hotel. 
+man eine Backofentür aufmachen. Mit unserer ersten Uber-Fahrt mit Mecbeth ging es dann zum Hotel.
 Auch hier wollte der CheckIn Automat nicht so, wie wir wollten. Aber 15 min später war auch das geklärt.
 
 Abends sind wir nochmal den Boulevard hoch
