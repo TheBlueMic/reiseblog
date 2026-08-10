@@ -590,8 +590,10 @@ def bauen() -> dict:
             kacheln = []
             for nummer, bild in enumerate(galerie_bilder, start=1):
                 alt = f"{beitrag['titel']} – Foto {nummer}"
+                bild_tag = img_tag(varianten[bild.name], alt, "(max-width: 46rem) 50vw, 23rem")
+                voll_src = html.escape(varianten[bild.name]["src"], quote=True)
                 kacheln.append(f'<figure class="galerie-bild">'
-                               f'{img_tag(varianten[bild.name], alt, "(max-width: 46rem) 50vw, 23rem")}'
+                               f'<a href="{voll_src}" class="galerie-link">{bild_tag}</a>'
                                f'</figure>')
             galerie_html = f'<div class="galerie">{"".join(kacheln)}</div>'
         else:
