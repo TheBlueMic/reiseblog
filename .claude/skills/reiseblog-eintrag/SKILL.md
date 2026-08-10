@@ -120,7 +120,7 @@ laut Design nie hart ab, sondern gibt Warnungen über `warn()` aus - also
 insbesondere auf Warnungen in der Ausgabe achten, nicht nur auf den Exit-Code,
 und die dem Nutzer zeigen, falls welche auftauchen.
 
-## 6. Commit
+## 6. Commit, Push und Merge - in einem Rutsch
 
 Neue Post-Dateien (und ggf. Fotos) automatisch committen, z. B.:
 
@@ -129,9 +129,20 @@ git add posts/JJJJ-MM-TT-titel/
 git commit -m "Neuer Eintrag: <titel>"
 ```
 
-**Nicht automatisch pushen.** Vor jedem `git push` den Nutzer explizit
-fragen - Commit ist lokal und risikolos, Push macht den Post auf GitHub
-Pages öffentlich sichtbar.
+Der Nutzer will hier **nur einmal bestätigen müssen**, nicht einzeln für
+Push und Merge - das widerspräche dem "unterwegs vom Handy"-Grundsatz, wenn
+jeder Schritt eine eigene Rückfrage bräuchte. Deshalb: einmal fragen, ob der
+Post fertig ist und veröffentlicht werden soll, und danach in einem Zug
+erledigen:
+
+1. `git push` auf den aktuellen Arbeits-Branch
+2. Pull Request nach `main` erstellen (falls noch keiner offen ist)
+3. Den PR direkt mergen
+
+Kein Zwischenstopp und keine zweite Rückfrage zwischen diesen drei
+Schritten. Nur wenn der Build-Check in Schritt 5 Warnungen zeigt oder etwas
+sonst auffällig ist, vor dem Push kurz darauf hinweisen statt stillschweigend
+weiterzumachen.
 
 ## Modell-Hinweis
 
