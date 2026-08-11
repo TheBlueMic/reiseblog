@@ -44,6 +44,12 @@ Ton-Leitplanken aus `CLAUDE.md`, hier als schnelle Referenz:
 - Ein tatsächlich beobachtetes Detail ist mehr wert als eine allgemeine
   Beschreibung. Nicht "atemberaubender Ausblick", sondern was konkret
   passiert ist.
+- Wohlgesinnt und positiv erzählen. Pannen, Wartezeiten oder Ärger dürfen
+  als Fakt vorkommen, aber nicht den Ton dominieren oder den Aufhänger
+  (Titel, Teaser, erster Satz) bilden - das Positive/Schöne am Tag verdient
+  das Hauptgewicht. Also lieber knapp erwähnen und weiterziehen als
+  drauf rumreiten, und wenn möglich mit einer positiven Wendung oder einem
+  versöhnlichen Schlusssatz abschließen statt mit dem Ärger zu enden.
 
 Zwei Auszüge aus echten Posts als Maßstab, wie knapp und konkret das gemeint
 ist:
