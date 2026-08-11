@@ -134,7 +134,15 @@ laut Design nie hart ab, sondern gibt Warnungen über `warn()` aus - also
 insbesondere auf Warnungen in der Ausgabe achten, nicht nur auf den Exit-Code,
 und die dem Nutzer zeigen, falls welche auftauchen.
 
-## 6. Commit, Push und Merge - in einem Rutsch
+## 6. Vorschau zeigen und auf OK warten
+
+Bevor irgendetwas gepusht wird, die fertige `index.md` als Artefakt anzeigen
+(Markdown reicht, kein aufwendiges Design nötig) und auf die ausdrückliche
+Bestätigung des Nutzers warten. Das ist die einzige Rückfrage in diesem
+Ablauf - aber sie ist Pflicht, auch wenn alles andere (Fotos, Build)
+unauffällig war. Erst nach einem klaren OK weiter zu Schritt 7.
+
+## 7. Commit, Push und Merge - in einem Rutsch
 
 Neue Post-Dateien (und ggf. Fotos) automatisch committen, z. B.:
 
@@ -143,20 +151,18 @@ git add posts/JJJJ-MM-TT-titel/
 git commit -m "Neuer Eintrag: <titel>"
 ```
 
-Der Nutzer will hier **nur einmal bestätigen müssen**, nicht einzeln für
-Push und Merge - das widerspräche dem "unterwegs vom Handy"-Grundsatz, wenn
-jeder Schritt eine eigene Rückfrage bräuchte. Deshalb: einmal fragen, ob der
-Post fertig ist und veröffentlicht werden soll, und danach in einem Zug
-erledigen:
+Der Nutzer will außer der Vorschau-Bestätigung aus Schritt 6 **keine
+weiteren Rückfragen** - das widerspräche dem "unterwegs vom Handy"-Grundsatz,
+wenn jeder einzelne Schritt noch eine eigene Nachfrage bräuchte. Nach dem OK
+deshalb in einem Zug erledigen, ohne Zwischenstopp:
 
 1. `git push` auf den aktuellen Arbeits-Branch
 2. Pull Request nach `main` erstellen (falls noch keiner offen ist)
 3. Den PR direkt mergen
 
-Kein Zwischenstopp und keine zweite Rückfrage zwischen diesen drei
-Schritten. Nur wenn der Build-Check in Schritt 5 Warnungen zeigt oder etwas
-sonst auffällig ist, vor dem Push kurz darauf hinweisen statt stillschweigend
-weiterzumachen.
+Nur wenn der Build-Check in Schritt 5 Warnungen zeigt oder etwas sonst
+auffällig ist, das schon in der Vorschau aus Schritt 6 mit ansprechen -
+nicht erst nach dem OK überraschend nachliefern.
 
 ## Modell-Hinweis
 
