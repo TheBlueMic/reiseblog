@@ -1,8 +1,8 @@
 ---
-titel: Ein kleines Bier für zehn Dollar
+titel: Wasserspiele am Bellagio
 ort: Las Vegas
 km: 0
-teaser: Fünf Kilometer Strip, Pool bei über 40 Grad und die Wasserspiele am Bellagio – der Tag endete trotzdem früher als geplant.
+teaser: Fünf Kilometer Strip, Pool bei über 40 Grad und abends die Wasserspiele am Bellagio im Fünfzehn-Minuten-Takt.
 ---
 
 Los ging's um 8:40 Uhr nach dem obligatorischen Kellogg's-Frühstück. Ein
@@ -23,12 +23,10 @@ praller Sonne wäre es kaum zu ertragen gewesen. Danach eine ruhige Phase im
 Zimmer: ausruhen, ein Nickerchen, etwas lesen.
 
 Abends ging's zur **Cabo Wabo Cantina**, direkt am Bellagio bei den
-Wasserspielen, Reservierung um 19 Uhr. Die Preise waren erwartbar heftig –
-ein kleines Bier für 10 Dollar, Gerichte um 25 Dollar plus Steuer und
-Trinkgeld – aber das Essen hat überzeugt. Nach dem Dinner noch zwei Runden
+Wasserspielen, Reservierung um 19 Uhr – Vegas-Preise (ein kleines Bier für
+10 Dollar), aber das Essen hat überzeugt. Nach dem Dinner noch zwei Runden
 der Bellagio-Wasserspiele mitgenommen, die alle 15 Minuten ihre
 Choreografie zeigen. Sehenswert.
 
-Der Tag klang etwas ruhiger aus, als jemand aus der Familie müde und leicht
-angeschlagen wurde – vermutlich zu viel Sonne. Also zurück ins Hotel, und
-mittlerweile sind alle reif fürs Bett.
+Nach so viel Sonne und Strip waren am Ende alle angenehm müde – ein
+entspannter Ausklang zurück im Hotel, und schnell reif fürs Bett.
