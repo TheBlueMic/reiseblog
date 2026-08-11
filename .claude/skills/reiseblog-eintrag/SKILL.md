@@ -69,15 +69,23 @@ als eigener Schritt statt als Nebensatz:
 
 - **Fotos**: jedes Foto, das in den Post-Ordner kommt, mit dem Read-Tool
   ansehen und auf erkennbare Gesichter prüfen. Landschaft, Fahrzeug, Essen,
-  Hände, Rückenansichten sind unproblematisch - erkennbare Gesichter der
-  Familie nicht. Im Zweifel das Foto weglassen und kurz sagen, warum.
+  Hände, Rückenansichten sind unproblematisch.
 - **Text**: keinen vollen echten Namen verwenden - weder im Fließtext noch
   im Frontmatter (z. B. `titel`, `teaser`).
 
+Fotoauswahl ist Sache des Nutzers, nicht des Skills - der Nutzer wählt seine
+Fotos bewusst aus und weiß selbst am besten, was er zeigen will. Bei einem
+Foto mit erkennbarem Gesicht deshalb **nicht eigenmächtig weglassen,
+zuschneiden oder unkenntlich machen**. Stattdessen kurz warnen ("Foto X
+zeigt ein erkennbares Gesicht") und knapp nachfragen, ob es so rein soll,
+raus soll oder anonymisiert werden soll - und erst danach entsprechend der
+Antwort handeln. Bei mehreren Fotos die Warnungen bündeln, nicht für jedes
+einzeln nachfragen.
+
 Bevor der Post fertiggestellt wird, kurz explizit bestätigen (im Chat an den
 Nutzer, nicht nur stillschweigend annehmen): "Fotos geprüft, keine
-erkennbaren Gesichter" bzw. falls keine Fotos vorliegen, das entsprechend
-vermerken.
+erkennbaren Gesichter" bzw. das Ergebnis der Rückfrage oben, falls doch
+welche gefunden wurden. Fehlen Fotos ganz, das entsprechend vermerken.
 
 ## 4. Datei anlegen
 
