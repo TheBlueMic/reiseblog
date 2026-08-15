@@ -17,6 +17,8 @@ nicht). Anscheinend sind die Tiere hier an Menschen gewöhnt und nicht mehr
 scheu. Natur pur – auch Eichhörnchen, winzige Streifenhörnchen und Raben
 sind hier oft zu sehen.
 
+![Ein Erdhörnchen am Campground](1000027778.jpg)
+
 Die Mädels haben uns noch kurz am Campingplatz eingecheckt, währenddessen
 haben wir die Staufächer sortiert und den Tisch gedeckt.
 
@@ -36,9 +38,19 @@ kaum in Worte fassen – vielleicht helfen die Bilder. Besonders gefallen
 hat uns aber die gesamte Aufmachung: gepflegte Wege, kleine
 Souvenirgeschäfte und durchweg freundliches Personal.
 
+![Blick über den Grand Canyon](1000027769.jpg)
+![Der Canyon vom Rim aus](1000027771.jpg)
+![Schichten im Gestein des Grand Canyon](1000027807.jpg)
+![Der Rim mit Blick nach Osten](1000027815.jpg)
+![Ein Felsvorsprung mitten im Canyon](1000027817.jpg)
+![Weiter Blick über den Grand Canyon](1000027818.jpg)
+
 Weil etwas Regen angekündigt war, sind wir nach dem zwei Kilometer langen
 Spaziergang mit zahlreichen Abstechern und Fotopausen wieder mit dem
 Shuttle zurückgefahren.
 
 Wenn das Wetter mitspielt, fahren wir gleich nochmal zum Rim, um den
 Sonnenuntergang anzuschauen.
+
+![Sonnenuntergang am Rim](1000027840.jpg)
+![Sonnenuntergang über dem Grand Canyon](1000027842.jpg)
