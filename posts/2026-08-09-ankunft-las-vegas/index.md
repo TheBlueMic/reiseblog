@@ -17,6 +17,9 @@ Am Ende waren es nur noch vierzig Minuten bis zum Boarding am Gate. Langeweile k
 Der Flug war gut, das Essen auch. Nur mit den Bluetooth-Kopfhörern gab es
 Probleme – beim nächsten Mal nehmen wir für alle vier Kabelkopfhörer mit.
 
+![Wolken über dem Nordatlantik](1000027382.jpg)
+![Landeanflug über der Wüste bei Las Vegas](1000027387.jpg)
+
 Bei der Einreise hatten wir noch zwei Bananen und Äpfel im Gepäck – upps!
 Gefühlt wie Kriminelle sind wir in einen Raum begleitet worden, in dem wir erst mal warten mussten. Zum Glück kam dann ein netter, Bewaffneter, der mit uns zum Sonderscan gegangen ist. Am Ende landeten die zwei Äpfel und Bananen im Müll und wir durften weiterziehen.
 Der Grund dafür ist ernster, als man denkt: frisches Obst kann
@@ -30,5 +33,10 @@ war der erste richtige Temperaturschock. Trocken und so heftig, als würde
 man eine Backofentür aufmachen. Mit unserer ersten Uber-Fahrt mit Mecbeth ging es dann zum Hotel.
 Auch hier wollte der CheckIn Automat nicht so, wie wir wollten. Aber 15 min später war auch das geklärt.
 
+![Die Pyramide des Luxor von innen, bei Nacht](1000027404.jpg)
+
 Abends sind wir nochmal den Boulevard hoch
 zum Supermarkt, um etwas fürs Frühstück zu kaufen - nebenbei haben wir die ersten Eindrücke vom Glamour der Stadt mitgenommen.
+
+![Der Strip bei Nacht, Blick von einer Fußgängerbrücke](1000027411.jpg)
+![Der Strip bei Nacht](1000027412.jpg)
