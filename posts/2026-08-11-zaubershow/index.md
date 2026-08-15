@@ -11,6 +11,10 @@ Kilometer südlich vom Hotel. Das Schild selbst ist cool – der Fußweg
 dahin in der Mittagshitze war eher was für Hartgesottene. Danach zügig
 zurück zum Luxor und rein in den Pool.
 
+![Die Luxor-Sphinx von vorne](1000027611.jpg)
+![Das „Welcome to Fabulous Las Vegas"-Schild](1000027617.jpg)
+![Unterwegs auf dem Strip](1000027642.jpg)
+
 Nach der kurzen, aber sehr willkommenen Abkühlung waren wir uns nicht
 ganz einig, was wir mit dem restlichen Tag anfangen sollten – zumindest
 bis 16 Uhr, denn da hatten wir schon eine Zaubershow bei Nathan Burton
@@ -30,6 +34,9 @@ Mit schon müden Beinen ging's danach trotzdem noch weiter zur Fremont
 Street für das Lichtspektakel. Lautstärke, Lichter, die ganze
 Atmosphäre – ordentlich Programm für einen Tag, der eigentlich schon
 voll war.
+
+![Die Lichtershow an der Fremont Street](1000027646.jpg)
+![Menschenmenge an der Fremont Street](1000027652.jpg)
 
 Am Ende waren wir froh, wieder im angenehm kühlen Bus zu sitzen. Der
 obligatorische Abstecher in den Supermarkt fürs morgige Frühstück

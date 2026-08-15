@@ -11,6 +11,10 @@ es uns Richtung Strip: durch die Casinos, mitten durchs Excalibur, über
 zahllose Fußgängerbrücken und den Boulevard hinauf bis etwa auf Höhe
 Bellagio.
 
+![Die Freiheitsstatue vor New York-New York](1000027462.jpg)
+![Achterbahn und Skyline am Strip](1000027463.jpg)
+![Der Eiffelturm-Nachbau am Paris Las Vegas](1000027474.jpg)
+
 Vegas ist eine eigene Welt – irgendwo zwischen Shoppingmall und
 Freizeitpark, alles mit diesem leicht künstlichen Glanz. Nach rund fünf
 Kilometern zu Fuß und dem einen oder anderen Blick in Läden wie Adidas und
@@ -27,6 +31,11 @@ Wasserspielen, Reservierung um 19 Uhr – Vegas-Preise (ein kleines Bier für
 10 Dollar), aber das Essen hat überzeugt. Nach dem Dinner noch zwei Runden
 der Bellagio-Wasserspiele mitgenommen, die alle 15 Minuten ihre
 Choreografie zeigen. Sehenswert.
+
+![Das Bellagio bei Nacht](1000027500.jpg)
+![Der Eiffelturm-Nachbau bei Nacht](1000027501.jpg)
+![Der Ballon am Paris Las Vegas bei Nacht](1000027502.jpg)
+![Bei den Bellagio-Wasserspielen](bellagio-wasserspiele.jpg)
 
 Nach so viel Sonne und Strip waren am Ende alle angenehm müde – ein
 entspannter Ausklang zurück im Hotel, und schnell reif fürs Bett.
