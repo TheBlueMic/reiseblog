@@ -2,6 +2,7 @@
 titel: Lightning McQueen mitten in der Wüste
 ort: Barstow
 datum: 2026-08-14
+km: 960
 teaser: Ein Gewitter vor Seligman, Route-66-Nostalgie mit Lightning McQueen und Mater, und zum Ausklang Elvis-Ambiente in Barstow.
 cover: seligman-lightning-mcqueen.jpg
 ---
@@ -11,24 +12,24 @@ den Bäumen direkt am Campingplatz unterwegs, beim Blick aus dem Fenster.
 (Wird hier oft fälschlich Elch genannt – echte Elche gibt's in der Gegend
 gar nicht.)
 
-![Wapiti am Campground](bilder-tag-3/wapiti-am-campground.jpg)
+![Wapiti am Campground](wapiti-am-campground.jpg)
 
 Dann ging es von der South Rim weiter Richtung Westen, ein Stück davon
 sogar auf einem Originalabschnitt der Route 66 – ein paar Meilen echter
 alter Asphalt statt Interstate. Kurz vor Seligman zog ein ordentliches
 Gewitter auf.
 
-![Gewitterwolken vor Seligman](bilder-tag-3/gewitter-vor-seligman.jpg)
+![Gewitterwolken vor Seligman](gewitter-vor-seligman.jpg)
 
 Der erste Stopp, Seligman, geriet dadurch etwas verregnet. Trotzdem sind wir
 durch den Ort gelaufen, vorbei an alten Autos – darunter ein Lightning
 McQueen- und ein Mater-Nachbau aus "Cars" – und kurz in einem Souvenirladen
 gestöbert.
 
-![Lightning McQueen in Seligman](bilder-tag-3/seligman-lightning-mcqueen.jpg)
-![Mater-Truck in Seligman](bilder-tag-3/seligman-mater-truck.jpg)
-![Hinterhof in Seligman](bilder-tag-3/seligman-hinterhof.jpg)
-![Haus in Seligman](bilder-tag-3/seligman-haus.jpg)
+![Lightning McQueen in Seligman](seligman-lightning-mcqueen.jpg)
+![Mater-Truck in Seligman](seligman-mater-truck.jpg)
+![Hinterhof in Seligman](seligman-hinterhof.jpg)
+![Haus in Seligman](seligman-haus.jpg)
 
 Weiter ging's zum Walmart in Kingman – ein wirklich riesiger Laden, in dem
 über 100 Dollar hängengeblieben sind. Dafür sind wir jetzt als
@@ -54,5 +55,5 @@ Hausmannskost, der Burger ganz ohne ausgefeilte Soße, dafür mit Ketchup aus
 der Flasche. Das Ambiente hat's dann rausgerissen: sehr amerikanisch,
 überall Elvis- und Marilyn-Monroe-Fotos.
 
-![Menü bei Peggy Sue's](bilder-tag-3/peggy-sues-menu.jpg)
-![Ambiente bei Peggy Sue's](bilder-tag-3/peggy-sues-ambiente.jpg)
+![Menü bei Peggy Sue's](peggy-sues-menu.jpg)
+![Ambiente bei Peggy Sue's](peggy-sues-ambiente.jpg)

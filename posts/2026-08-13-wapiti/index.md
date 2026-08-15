@@ -2,6 +2,7 @@
 titel: Kein Elch, sondern ein Wapiti
 ort: Grand Canyon
 datum: 2026-08-13
+km: 440
 teaser: Erste Nacht im Wohnmobil am Mather Campground, ein Wapiti direkt vor der Tür und ein Spaziergang am Rim des Grand Canyon.
 ---
 

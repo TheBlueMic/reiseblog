@@ -2,6 +2,7 @@
 titel: Vier Stunden und ein paar Zerquetschte
 ort: Grand Canyon
 datum: 2026-08-12
+km: 440
 teaser: Wohnmobil-Übernahme mit Verzögerung, ein Blitzbesuch bei Walmart und eine lange Fahrt zum Grand Canyon – kurz vor 22:30 Uhr stand das Wohnmobil auf dem Stellplatz am Mather Campground.
 ---
 
