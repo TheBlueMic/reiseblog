@@ -13,7 +13,6 @@ zurück zum Luxor und rein in den Pool.
 
 ![Die Luxor-Sphinx von vorne](1000027611.jpg)
 ![Das „Welcome to Fabulous Las Vegas"-Schild](1000027617.jpg)
-![Unterwegs auf dem Strip](1000027642.jpg)
 
 Nach der kurzen, aber sehr willkommenen Abkühlung waren wir uns nicht
 ganz einig, was wir mit dem restlichen Tag anfangen sollten – zumindest
@@ -29,6 +28,8 @@ Danach ging's mit dem Deuce-Bus Richtung Einkaufs-Mall im Norden von Las
 Vegas – ein klassisches Outdoor-Outlet, also keine große Halle, sondern
 einzelne Läden entlang einer Art Fußgängerzone. Bei Nike sind wir
 fündig geworden.
+
+![Das Venetian, weiter nördlich am Strip](1000027642.jpg)
 
 Mit schon müden Beinen ging's danach trotzdem noch weiter zur Fremont
 Street für das Lichtspektakel. Lautstärke, Lichter, die ganze
