@@ -21,10 +21,9 @@ Die Mädels haben uns noch kurz am Campingplatz eingecheckt, währenddessen
 haben wir die Staufächer sortiert und den Tisch gedeckt.
 
 Frühstück gab's draußen auf der steinernen Bank, die zu jedem Stellplatz
-gehört – dazu zum ersten Mal keinen selbstgebrühten Kaffee, sondern
-Instant, auch das hat seinen eigenen Charme. Eine Feuerstelle gibt's
-ebenfalls, Feuermachen ist wegen der Trockenheit allerdings strikt
-verboten.
+gehört – dazu Kaffee ganz klassisch: Wasser auf dem Herd aufgekocht und
+den Filter von Hand aufgegossen. Eine Feuerstelle gibt's ebenfalls,
+Feuermachen ist wegen der Trockenheit allerdings strikt verboten.
 
 Vom Campingplatz aus fahren alle zehn Minuten kostenlose Shuttlebusse, die
 eine kleine Rundtour machen – ein sehr engagierter Busfahrer hat uns
