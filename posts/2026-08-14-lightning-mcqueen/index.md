@@ -6,10 +6,12 @@ teaser: Ein Gewitter vor Seligman, Route-66-Nostalgie mit Lightning McQueen und 
 cover: seligman-lightning-mcqueen.jpg
 ---
 
-Der Morgen fing mit Überraschungsbesuch an: ein Elch, gemütlich zwischen
+Der Morgen fing mit Überraschungsbesuch an: ein Wapiti, gemütlich zwischen
 den Bäumen direkt am Campingplatz unterwegs, beim Blick aus dem Fenster.
+(Wird hier oft fälschlich Elch genannt – echte Elche gibt's in der Gegend
+gar nicht.)
 
-![Elch am Campground](bilder-tag-3/elch-am-campground.jpg)
+![Wapiti am Campground](bilder-tag-3/wapiti-am-campground.jpg)
 
 Dann ging es von der South Rim weiter Richtung Westen, ein Stück davon
 sogar auf einem Originalabschnitt der Route 66 – ein paar Meilen echter
