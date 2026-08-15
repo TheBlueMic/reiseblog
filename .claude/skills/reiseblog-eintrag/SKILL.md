@@ -120,6 +120,12 @@ Fließtext in Absätzen.
 - Fotos einfach unverändert in den Post-Ordner kopieren. Kein manuelles
   EXIF-Entfernen nötig - das übernimmt `build.py` beim Reencode automatisch
   (Absicht wegen GPS-Daten in Handyfotos, siehe `CLAUDE.md`).
+- Fotos möglichst passend im Text platzieren (`![Alt-Text](dateiname.jpg)`
+  direkt bei der Textstelle, zu der sie gehören), statt sie unsortiert am
+  Ende in der automatischen Galerie landen zu lassen. Mehrere Fotos zur
+  selben Textstelle dürfen als kleiner Block direkt hintereinander stehen.
+  Nur Fotos ganz ohne erkennbaren Bezug zum Text bleiben unreferenziert
+  und landen automatisch in der Galerie.
 
 **Wichtig:** Für einen neuen Post ist nie eine Änderung an `build.py`,
 `templates/` oder `assets/` nötig - das ist ein Grundprinzip dieses Repos,
