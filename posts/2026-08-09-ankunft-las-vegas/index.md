@@ -17,7 +17,7 @@ Am Ende waren es nur noch vierzig Minuten bis zum Boarding am Gate. Langeweile k
 Der Flug war gut, das Essen auch. Nur mit den Bluetooth-Kopfhörern gab es
 Probleme – beim nächsten Mal nehmen wir für alle vier Kabelkopfhörer mit.
 
-![Wolken über dem Nordatlantik](1000027382.jpg)
+![Das Inlandeis Grönlands mit Schmelzwasserseen, aus dem Flugzeug](1000027382.jpg)
 ![Landeanflug über der Wüste bei Las Vegas](1000027387.jpg)
 
 Bei der Einreise hatten wir noch zwei Bananen und Äpfel im Gepäck – upps!
