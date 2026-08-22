@@ -32,7 +32,7 @@ Anfang und Ende der Reise.
 - **Sequoia & Kings Canyon** – Azalea Campground, Grant Grove, Site 58
 - **Yosemite** – Lower Pines Campground, Site 031
 - **Pismo Beach** – Oceano Campground, Site OC32
-- **Hearst** – Hearst San Simeon State Park
+- **Hearst** – San Simeon Creek Campground (Hearst San Simeon SP), Site C65
 - **Big Sur** – Pfeiffer Big Sur State Park
 - **Santa Cruz** – Santa Cruz Harbor RV Park
 - **San Francisco** – RIU Plaza Fisherman's Wharf
