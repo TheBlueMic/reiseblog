@@ -2,6 +2,7 @@
 titel: Der zweitgrößte Baum der Welt
 ort: Grant Grove
 datum: 2026-08-15
+km: 1410
 teaser: Von der Geisterstadt Calico durch Wüste, Vorstädte und Obstplantagen bis zu den ersten Mammutbäumen im Sequoia-Nationalpark – und abends ein Sternenhimmel wie selten.
 cover: 1000028004.jpg
 ---
