@@ -2,6 +2,7 @@
 titel: Drama am Wegesrand
 ort: Yosemite
 datum: 2026-08-19
+km: 1620
 teaser: Ein Greifvogel schnappt sich am Wegesrand ein Eichhörnchen, wir wandern unwissend auf dem John Muir Trail – und abends taucht die tiefstehende Sonne El Capitan in warmes Licht.
 cover: 1000028452.jpg
 ---

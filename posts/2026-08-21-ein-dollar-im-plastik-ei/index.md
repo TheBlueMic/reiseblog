@@ -2,6 +2,7 @@
 titel: Ein Dollar im Plastik-Ei
 ort: Pismo Beach
 datum: 2026-08-21
+km: 2040
 teaser: Bodyboard-Jagd durchs halbe Städtchen, der erste Sprung in den Pazifik, ein Sonnenuntergang am Lagerfeuer – und ein Nachbar, der uns mit einer kleinen Geste zum Nachdenken bringt.
 cover: 1000028575.jpg
 ---

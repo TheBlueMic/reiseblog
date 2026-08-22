@@ -2,6 +2,7 @@
 titel: Kalt bis zur Hüfte
 ort: Yosemite
 datum: 2026-08-18
+km: 1620
 teaser: Wanderung Richtung Mirror Lake und Happy Isles, Abkühlung im hüfttiefen Fluss, abends Lagerfeuer mit Zirpkonzert – und ein Ranger-Besuch, der an die Bären erinnert.
 cover: 1000028414.jpg
 ---
