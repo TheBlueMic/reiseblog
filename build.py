@@ -565,7 +565,10 @@ def bauen() -> dict:
                 warn(f"posts/{_slug}: {name} hat keinen Alternativtext (![Beschreibung](…)).")
             beschriftung = f'<figcaption>{html.escape(alt)}</figcaption>' if alt else ""
             tag = img_tag(_varianten[name], alt or _titel, "(max-width: 46rem) 100vw, 46rem")
-            return f'<figure class="bild">{tag}{beschriftung}</figure>'
+            voll_src = html.escape(_varianten[name]["src"], quote=True)
+            return (f'<figure class="bild">'
+                    f'<a href="{voll_src}" class="galerie-link">{tag}</a>'
+                    f'{beschriftung}</figure>')
 
         koerper_html = markdown(beitrag["koerper"], bild_im_text)
 
