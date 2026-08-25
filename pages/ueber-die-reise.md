@@ -15,7 +15,7 @@ Nevada über die Sierra Nevada bis an die kalifornische Küste.
 5. **Yosemite National Park** (3 Nächte, 17.–20. Aug) – Valley und Glacier Point
 6. **Pismo Beach** (2 Nächte, 20.–22. Aug) – erster Tag am Pazifik
 7. **Hearst Castle** (1 Nacht, 22.–23. Aug) – die Villa über der Küste
-8. **Big Sur** (2 Nächte, 23.–25. Aug) – Highway 1
+8. **Big Sur / Küste** (23.–25. Aug) – wegen eines Waldbrands (Timber Fire) auf Plaskett Creek Campground und Sunset State Beach bei Watsonville ausgewichen, statt der geplanten zwei Nächte in Pfeiffer Big Sur SP
 9. **Santa Cruz** (1 Nacht, 25.–26. Aug) – Boardwalk
 10. **San Francisco** (3 Nächte, 26.–29. Aug) – Abflug
 
@@ -33,7 +33,7 @@ Anfang und Ende der Reise.
 - **Yosemite** – Lower Pines Campground, Site 031
 - **Pismo Beach** – Oceano Campground, Site OC32
 - **Hearst** – San Simeon Creek Campground (Hearst San Simeon SP), Site C65
-- **Big Sur** – Pfeiffer Big Sur State Park
+- **Big Sur / Küste** – Plaskett Creek Campground (23.–24. Aug) und Sunset State Beach Campground, Watsonville (24.–25. Aug) – Ausweichplätze wegen des Waldbrands statt Pfeiffer Big Sur State Park
 - **Santa Cruz** – Santa Cruz Harbor RV Park
 - **San Francisco** – RIU Plaza Fisherman's Wharf
 
