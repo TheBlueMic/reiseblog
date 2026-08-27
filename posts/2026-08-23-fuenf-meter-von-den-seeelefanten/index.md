@@ -4,6 +4,7 @@ ort: Plaskett Creek
 datum: 2026-08-23
 km: 2190
 teaser: Elephant Seal Vista Point aus nächster Nähe, ein spontaner Ausweich-Stellplatz am Highway 1 und ein Nachmittag mit einer deutschen Familie am Sanddollar Beach.
+cover: 1000028711.jpg
 ---
 
 Ein Holzscheit vom Vorabend glimmt noch vor sich hin, als wir aufwachen,
@@ -17,6 +18,9 @@ später in der Sonne, mit zuckerfreiem Sirup – während freche Eichhörnchen
 versuchen, uns die Pancakes vom Teller zu klauen. Die trauen sich sogar
 bis auf die Sitzbank.
 
+![Ein Erdhörnchen zwischen trockenem Laub](1000028687.jpg)
+![Das Erdhörnchen auf Beutezug bei den Campingstühlen](1000028691.jpg)
+
 Am Strand hatte das Internet bei K. tags zuvor noch für die News gereicht:
 Die Küstenstraße 1 ist wieder offen. Nicht bis zu unserem eigentlichen
 Campground, aber immerhin müssen wir nicht außen herumfahren.
@@ -25,11 +29,19 @@ Aussichtspunkt – dabei merken wir, dass es keine gute Idee ist, mit fast
 leerem Tank Richtung Norden zu fahren. Also fünf Meilen zurück, tanken,
 6,80 Dollar pro Gallone, der höchste Preis bisher.
 
+![Küstenblick vom Aussichtspunkt, mit Rauchschwaden am Horizont](1000028695.jpg)
+![Nebelverhangene Felsen in der Bucht](1000028700.jpg)
+![Parkplatz am Aussichtspunkt, mit Blick auf die Küste](1000028715.jpg)
+![Felsformation im Nebel](1000028716.jpg)
+
 Zurück auf der Strecke geht's weiter bis zum Elephant Seal Vista Point –
 das hat sich wirklich gelohnt. Auf etwa fünf Meter kommt man an die Tiere
 heran, die sich in der Sonne ausruhen, sich Sand auf den Rücken werfen,
 um Plätze streiten und sich kurz anbrüllen, um die Rangordnung
 auszufechten.
+
+![Seeelefanten ruhen sich am Strand aus](1000028709.jpg)
+![Zwei Seeelefanten fechten brüllend die Rangordnung aus](1000028711.jpg)
 
 Die Straße wird enger, K. übernimmt fürs Fahren – bis ich es als
 Beifahrer nicht mehr aushalte und wieder selbst ans Steuer gehe. Ein
