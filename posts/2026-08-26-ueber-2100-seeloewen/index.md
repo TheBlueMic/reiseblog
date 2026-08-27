@@ -31,7 +31,11 @@ T-Shirts), die Sammelrunde ist aber noch nicht abgeschlossen.
 ![Souvenirläden auf Pier 39](1000028996.jpg)
 
 Und natürlich: die Seelöwen. Sie drängen sich alle auf ein Ponton und
-schubsen sich dabei teils gegenseitig runter – ziemlich witzig anzusehen. Erst seit 1989 liegen sie an Pier 39, kurz nach
+schubsen sich dabei teils gegenseitig runter – ziemlich witzig anzusehen.
+
+![Die Seelöwen drängen sich dicht an dicht auf den Pontons](seeloewen-ponton.jpg)
+
+Erst seit 1989 liegen sie an Pier 39, kurz nach
 dem Loma-Prieta-Erdbeben – vorher waren sie eher an den Seal Rocks bei
 Ocean Beach zu finden. Am gerade instand gesetzten K-Dock durften damals
 kurzzeitig keine Boote anlegen, dazu kam ein außergewöhnlich großer
